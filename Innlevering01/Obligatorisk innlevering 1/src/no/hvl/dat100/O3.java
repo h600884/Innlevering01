@@ -14,15 +14,23 @@ public class O3
 		
 		int a = 1;
 		
+		if(n >= 0)
+		{
+			
+		
 		for(int i = 1; i<=n; i++) 
 		{
 			
 			a = a*i;
-			
+		
+			showMessageDialog(null,"Tallet er: " + a);
 		}
-	
-		showMessageDialog(null,"Tallet er: " + a);
-	
+		}
+		else
+		{
+			showMessageDialog(null,"Trenger et godkjent tall!");
+		}
+		}
 	}		
-}
+
 
